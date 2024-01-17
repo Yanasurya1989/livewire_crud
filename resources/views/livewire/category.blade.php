@@ -1,7 +1,7 @@
 <div>
     <div class="col-md-8 mb-2">
         <div class="card">
-            <div class="card-body">
+            <div class="card-body align-center">
                 @if(session()->has('success'))
                     <div class="alert alert-success" role="alert">
                         {{ session()->get('success') }}
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-center">
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive">
